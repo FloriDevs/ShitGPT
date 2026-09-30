@@ -1,0 +1,58 @@
+name: Train tiny LLM
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_iters:
+        description: "Ziel-Iterationen (absolut, muss ueber dem Stand des Checkpoints liegen)"
+        default: "9000"
+      resume:
+        description: "Von out/ckpt.pt im Repo weitertrainieren (aus lassen, wenn kein Checkpoint im Repo liegt)"
+        type: boolean
+        default: true
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360        # Maximum fuer GitHub-gehostete Runner
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pakete installieren
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install tokenizers datasets numpy
+
+      - name: Daten vorbereiten
+        run: |
+          mkdir -p data out eigene_texte
+          python make_dialogs.py
+          python prepare.py --wiki_articles 3000 --own_repeat 15 --own_dir eigene_texte
+
+      - name: Trainieren
+        run: |
+          ARGS="--max_iters ${{ inputs.max_iters }} --lr 2e-4 --eval_every 250"
+          if [ "${{ inputs.resume }}" = "true" ]; then
+            ARGS="--resume $ARGS"
+          else
+            ARGS="--layers 4 --d 192 --heads 4 --block 128 --batch 32 $ARGS"
+          fi
+          # Nach 320 Minuten sauber stoppen, damit der letzte Checkpoint noch hochgeladen wird
+          set +e
+          timeout 320m python -u train.py $ARGS
+          code=$?
+          if [ $code -ne 0 ] && [ $code -ne 124 ]; then exit $code; fi
+
+      - name: Ergebnis als Artifact speichern
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: minillm
+          path: |
+            out/ckpt.pt
+            data/tokenizer.json
+          retention-days: 14
