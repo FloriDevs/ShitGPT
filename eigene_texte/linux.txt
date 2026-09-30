@@ -1,0 +1,9 @@
+Linux ist ein frei verfügbares Open-Source-Betriebssystem, das auf dem Unix-Design basiert und heute das fundamentale Rückgrat der modernen digitalen Welt bildet. Von eingebetteten Systemen über Großrechner bis hin zu globalen Cloud-Infrastrukturen treibt es unzählige Anwendungen an.
+
+Open-Source-Prinzip und Kollaboration: Der Quellcode von Linux ist öffentlich zugänglich. Dies ermöglicht weltweite Zusammenarbeit, hohe Transparenz und eine kontinuierliche Weiterentwicklung durch eine diverse Entwicklergemeinschaft.
+
+Modularität und Stabilität: Das Betriebssystem zeichnet sich durch hohe Ausfallsicherheit, exzellente Ressourceneffizienz und die Flexibilität aus, den Kernel exakt an spezifische Hardwareanforderungen anzupassen.
+
+Vielfältige Distributionen: Dank des modularen Aufbaus existieren zahlreiche spezialisierte Distributionen (wie Ubuntu, Debian oder Arch Linux), die jeweils für Server, Desktops oder IoT-Geräte optimiert sind.
+
+Durch seine enorme Flexibilität, Skalierbarkeit und Sicherheit ist Linux die bevorzugte Plattform für die moderne Softwareentwicklung, Netzwerkadministration und Enterprise-Cloud-Architekturen.

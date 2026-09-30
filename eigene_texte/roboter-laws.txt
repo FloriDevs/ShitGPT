@@ -1,0 +1,9 @@
+Die von dem Autor Isaac Asimov im Jahr 1942 erstmals formulierten „Drei Gesetze der Robotik“ gelten als Meilenstein der Science-Fiction-Literatur, haben jedoch eine erstaunliche Relevanz für die philosophische und technische Debatte um moderne Künstliche Intelligenz und Maschinenethik erlangt.
+
+Das Erste Gesetz (Schutz des Menschen): Ein Roboter darf keinen Menschen verletzen oder durch Untätigkeit zulassen, dass einem Menschen Schaden zugefügt wird. Dieses Gesetz steht hierarchisch über allen anderen und priorisiert menschliches Leben bedingungslos.
+
+Das Zweite Gesetz (Gehorsam): Ein Roboter muss den Befehlen gehorchen, die ihm von Menschen erteilt werden – es sei denn, solche Befehle stehen im Widerspruch zum Ersten Gesetz.
+
+Das Dritte Gesetz (Selbsterhaltung): Ein Roboter muss seine eigene Existenz schützen, solange dieser Schutz nicht gegen das Erste oder Zweite Gesetz verstößt.
+
+In späteren Werken ergänzte Asimov diese Regeln um das sogenannte nullte Gesetz, welches den Schutz der gesamten Menschheit über den Schutz einzelner Individuen stellt. Obwohl Asimovs Gesetze als literarisches Stilmittel für komplexe erzählerische Konflikte dienten, spiegeln sie in der modernen Informatik die fundamentale Herausforderung des sogenannten Alignment-Problems wider: Wie lassen sich autonome Systeme so gestalten, dass ihr Verhalten unter allen Umständen sicher, kontrollierbar und im Einklang mit menschlichen Werten steht?

@@ -1,0 +1,9 @@
+MS-DOS (Microsoft Disk Operating System) war in den 1980er und frühen 1990er Jahren das dominierende Betriebssystem für IBM-kompatible Personal Computer und legte den wirtschaftlichen Grundstein für den weltweiten Erfolg von Microsoft.
+
+Kommandozeilenbasierte Steuerung: Im Gegensatz zu modernen grafischen Benutzeroberflächen (GUI) erfolgte die gesamte Interaktion rein textbasiert über präzise Befehle, die über die Tastatur eingegeben werden mussten.
+
+Hierarchisches Dateisystem: MS-DOS etablierte die strukturierte Verwaltung von Verzeichnissen und Unterverzeichnissen, was die Organisation von Daten auf frühen Diskettenlaufwerken und Festplatten revolutionierte.
+
+Fundament für Microsoft Windows: Die ersten Versionen von Windows liefen noch als grafische Benutzeroberfläche direkt auf Basis von MS-DOS, bevor eigenständige Systeme wie Windows NT den Markt übernahmen.
+
+Obwohl MS-DOS im alltäglichen Gebrauch längst durch moderne, intuitive Betriebssysteme abgelöst wurde, prägen seine architektonischen Grundlagen und Befehlssrukturen bis heute die Mechanismen von Kommandozeilen wie der Windows-Eingabeaufforderung.

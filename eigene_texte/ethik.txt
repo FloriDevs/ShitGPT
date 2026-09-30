@@ -1,0 +1,9 @@
+Die rasante Entwicklung der Künstlichen Intelligenz (KI) wirft neben technologischen Fortschritten auch fundamentale ethische Fragen auf. Während moderne Algorithmen immer präzisere Ergebnisse liefern, wächst die gesellschaftliche Verantwortung von Entwicklern, Forschern und politischen Entscheidungsträgern.
+
+Transparenz und Erklärbarkeit: Komplexe Modelle wie Deep Neural Networks arbeiten oft nach dem Prinzip einer „Black Box“. Es ist entscheidend, Entscheidungsprozesse nachvollziehbar zu machen, um Vertrauen zu schaffen.
+
+Datenschutz und Fairness: Trainingsdaten müssen frei von historischen Verzerrungen (Bias) sein, um diskriminierende Ausgaben oder Benachteiligungen einzelner Bevölkerungsgruppen zu verhindern.
+
+Mensch-Maschine-Interaktion: Eine gelungene Zukunft basiert nicht auf dem Ersetzen menschlicher Arbeit, sondern auf einer produktiven Symbiose, bei der KI repetitive Aufgaben übernimmt und Menschen sich auf Kreativität und Empathie konzentrieren.
+
+Langfristig erfordert der verantwortungsvolle Umgang mit autonomen Systemen internationale Standards und interdisziplinäre Zusammenarbeit. Nur so lässt sich sicherstellen, dass technologischer Fortschritt im Einklang mit humanen Werten steht.

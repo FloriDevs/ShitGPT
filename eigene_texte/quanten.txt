@@ -1,0 +1,9 @@
+Das Quantencomputing markiert einen Paradigmenwechsel in der Informationstechnologie. Während klassische Computer Daten in Form von Bits verarbeiten – die entweder den Zustand 0 oder 1 annehmen –, nutzen Quantencomputer die Prinzipien der Quantenmechanik.
+
+Qubits und Superposition: Dank des Phänomens der Superposition können Quantenbits (Qubits) gleichzeitig in mehreren Zuständen existieren, was eine exponentielle Steigerung der Rechenleistung bei bestimmten Problemstellungen ermöglicht.
+
+Quantenverschränkung: Die Verschränkung von Qubits sorgt dafür, dass der Zustand eines Teilchens unmittelbar den Zustand eines anderen bestimmt, selbst über große Entfernungen hinweg. Dies erlaubt hocheffiziente parallele Rechenoperationen.
+
+Anwendungsbereiche: Zu den vielversprechendsten Einsatzgebieten gehören die Molekülmodellierung in der Pharmakologie, die Optimierung komplexer Logistiknetzwerke sowie die Entwicklung abhörsicherer Verschlüsselungsverfahren in der Kryptographie.
+
+Bis voll funktionsfähige, fehlertolerante Quantencomputer im großen Stil einsatzbereit sind, müssen noch gravierende physikalische Hürden – wie die Anfälligkeit für Dekohärenz und die Notwendigkeit extremer Kühlung – überwunden werden.
